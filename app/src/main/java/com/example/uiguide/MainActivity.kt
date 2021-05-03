@@ -25,7 +25,8 @@ class MainActivity : AppCompatActivity() {
 
         loginButton!!.setOnClickListener(View.OnClickListener {
 //            finish()
-            val intent = Intent(this, LoginActivity::class.java)
+//            val intent = Intent(this, LoginActivity::class.java)
+            val intent = Intent(this, StaffListActivity::class.java)
             startActivity(intent)
         })
 

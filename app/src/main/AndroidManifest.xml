@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.UIGuide">
-        <activity android:name=".RegisterActivity"></activity>
+        <activity android:name=".RentReportActivity"></activity>
+        <activity android:name=".AdminActivity" />
+        <activity android:name=".StaffListActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".StaffActivity" />
+        <activity android:name=".RegisterActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
